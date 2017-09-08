@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -75,13 +76,13 @@
 		<!--Seccion de botones-->
 			<div class="row">
 				<div class="col-lg-4 text-right">
-					<button type="button" class="btn btn-primary" onclick="guardar()" value="Guardar datos">Guardar</button>
+					<button type="button" class="btn btn-primary" id="guardar" value="Guardar datos">Guardar</button>
 				</div>
 				<div class="col-lg-4 text-center">
-					<button type="button" class="btn btn-primary" onclick="limpiar()" value="Recuperar datos">Limpiar</button>
+					<button type="button" class="btn btn-primary" id="limpiar" value="Recuperar datos">Limpiar</button>
 				</div>
 				<div class="col-lg-4 text-left">
-					<button type="button" class="btn btn-primary" onclick="eliminar()" value="Eliminar datos">Eliminar Comentarios</button>
+					<button type="button" class="btn btn-primary" id="eliminar" value="Eliminar datos">Eliminar Comentarios</button>
 				</div>
 			</div>
 		</div>
@@ -102,6 +103,7 @@
 			</div>
 		</div>
 	</footer>
+
 
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA712mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="js/main.js"></script>
