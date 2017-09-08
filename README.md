@@ -1,0 +1,1 @@
+# Fotolog-ver2
