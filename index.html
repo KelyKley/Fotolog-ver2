@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FOTOLOG</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<section id="inicio">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 logo">
+						<ul>
+							<li><a href="#"><img class="logos" src="img/fotolog-logo.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section id="bannerflog">
+		<div class="container">
+			<div class="col-md-12 text-center">
+				<h1>Galeria de Fotos</h1>
+			</div>
+		</div>
+	</section>
+	<section id="contenido">
+		<div class="container">
+			<div class="col-md-2 recientes">
+				<a href="" class="fotos">Fotos Anteriores</a>
+				<img src="img/a.jpg">
+				<img src="img/b.jpg" alt="">
+				<img src="img/c.jpg" alt="">
+				<img src="img/d.jpg" alt="">
+			</div>
+			<div class="col-md-8">
+				<img src="img/h.jpg" alt="">
+				<p>Sesión fotografica</p>
+			</div>
+			<div class="col-md-2 recientes">
+				<a href="" class="fotos">Fotos Recientes</a>
+				<img src="img/d.jpg">
+				<img src="img/e.jpg" alt="">
+				<img src="img/i.jpg" alt="">
+				<img src="img/j.jpg" alt="">
+			</div>
+		</div>
+	</section>
+
+	<section id="formulario">
+		<div class="container" id="caja">
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6 datos">
+					<div class="form-group">
+						<label for="usr">Nombre</label>
+						<input type="text" class="form-control" id="nombre">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6 datos">
+					<div class="form-group">
+						<label for="usr">Comentario</label>
+						<input type="text" class="form-control" id="comentario">
+					</div>
+				</div>
+			</div>
+		<!--Seccion de botones-->
+			<div class="row">
+				<div class="col-lg-4 text-right">
+					<button type="button" class="btn btn-primary" onclick="guardar()" value="Guardar datos">Guardar</button>
+				</div>
+				<div class="col-lg-4 text-center">
+					<button type="button" class="btn btn-primary" onclick="limpiar()" value="Recuperar datos">Limpiar</button>
+				</div>
+				<div class="col-lg-4 text-left">
+					<button type="button" class="btn btn-primary" onclick="eliminar()" value="Eliminar datos">Eliminar Comentarios</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Seccion de comentarios-->
+	<section class="container">
+		<div class="row">
+			<div class="col-md-offset-3 col-md-6">
+				<div id="comentarios"></div>
+			</div>
+		</div>
+	</section>
+	<!--Seccion de footer-->
+	<footer>
+		<div class="row">
+			<div class="col-md-12">
+				<p class="text-center">Laboratoria 2017</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA712mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

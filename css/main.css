@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 19px;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+body {
+    background-color: transparent;
+    color: black;
+    margin: 0;
+}
+
+header {
+    margin-top: 20px;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#bannerflog img {
+    height: 100px;
+}
+
+h1,
+p {
+    color: gray;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+footer {
+    padding: 10px;
+    background: black;
+}
+
+
+/*Secion inicio*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 26px;
+    text-decoration: none;
+    background: #FF6666;
+    display: inline-block;
+}
+
+li a:hover {
+    background-color: #FFE900;
+}
+
+#inicio {
+    background: #FF6666;
+}
+
+.links ul li,
+ul {
+    list-style: none;
+    background: #FF6666;
+}
+
+#inicio .logos {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Seccion comentario*/
+
+.div {
+    background: rgba(250, 128, 114, 0.6);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    padding: 5px 30px;
+    margin: 3%;
+}
+
+h3 {
+    border-bottom: dashed;
+    border-color: white;
+}
